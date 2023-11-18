@@ -2,6 +2,7 @@
 return [
   [
     "id" => 1,
+    "gender" => "male",
     "frontImage" => "1.webp",
     "backImage" => "1b.webp",
     "brand" => "Levi's",
@@ -15,12 +16,14 @@ return [
       ],
       [
         "type" => "discount",
-        "value" => "-50%"
+        "value" => "-50%",
+        "discount" => 50
       ]
     ]
   ],
   [
     "id" => 2,
+    "gender" => "female",
     "frontImage" => "2.webp",
     "backImage" => "2b.webp",
     "brand" => "Guess",
@@ -30,12 +33,14 @@ return [
     "badges" => [
       [
         "type" => "discount",
-        "value" => "-30%"
+        "value" => "-30%",
+        "discount" => 30
       ]
     ]
   ],
   [
     "id" => 3,
+    "gender" => "female",
     "frontImage" => "3.webp",
     "backImage" => "3b.webp",
     "brand" => "Come Zucchero Filato",
@@ -45,12 +50,14 @@ return [
     "badges" => [
       [
         "type" => "discount",
-        "value" => "-30%"
+        "value" => "-30%",
+        "discount" => 30
       ]
     ]
   ],
   [
     "id" => 4,
+    "gender" => "male",
     "frontImage" => "4.webp",
     "backImage" => "4b.webp",
     "brand" => "Levi's",
@@ -64,12 +71,14 @@ return [
       ],
       [
         "type" => "discount",
-        "value" => "-50%"
+        "value" => "-50%",
+        "discount" => 50
       ]
     ]
   ],
   [
     "id" => 5,
+    "gender" => "female",
     "frontImage" => "5.webp",
     "backImage" => "5b.webp",
     "brand" => "Maya Deluxe",
@@ -83,12 +92,14 @@ return [
       ],
       [
         "type" => "discount",
-        "value" => "-50%"
+        "value" => "-50%",
+        "discount" => 50
       ]
     ]
   ],
   [
     "id" => 6,
+    "gender" => "female",
     "frontImage" => "6.webp",
     "backImage" => "6b.webp",
     "brand" => "Esprit",

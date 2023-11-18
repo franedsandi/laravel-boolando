@@ -1,0 +1,84 @@
+.card{
+  width: 32%;
+  min-width: 300px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgb(209, 209, 209);
+  .image{
+    position: relative;
+    img{
+    width: 100%;
+    }
+  }
+  .description{
+    background-color: white;
+    .tag {
+      display: block;
+      padding: 2px;
+    }
+      .brand ,
+      .price{
+        font-size: .9rem;
+        text-transform: capitalize;
+      }
+      .name{
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .price{
+        font-weight: bold;
+      }
+      .red{
+        color:red;
+        margin-right: 10px;
+      }
+
+  }
+  .upper{
+    z-index: 1;
+    right: 0;
+    top: 0;
+    display: none;
+  }
+  &:hover .upper{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  .like{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 2;
+    &:hover,
+    &.active{
+      color: red;
+    }
+    .heart{
+      padding: 3px 5px;
+      background-color: white;
+      font-size: 1.3rem;
+    }
+  }
+  .caracteristicas{
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    font-size: .9rem;
+    color: white;
+    z-index: 2;
+    .discount{
+      background-color: red;
+      margin-right: 1px;
+      padding: 3px 5px;
+    }
+    .tag{
+      background-color: green;
+      padding: 3px 5px;
+    }
+  }
+}
